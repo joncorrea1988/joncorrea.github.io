@@ -1,0 +1,128 @@
+
+.main-container{
+    display: flex;
+    width: 1200px;
+
+}
+ul{list-style: none;
+    text-align: center;
+    text-transform: uppercase;
+}
+li{ list-style-type: square;
+    text-align: center;
+}
+span{ list-style-type: square;
+    text-align: center;
+}
+
+aside{
+    background-color:gray ;
+    width: 30%;
+    margin-right: 3%;
+}
+
+aside  * {color: white;
+    text-align: center
+    ;}
+    dl{text-align: center;}
+
+dt,
+dd{ line-height: 1.5em;
+border-top: 1px solid white;}
+
+dt{font-weight: bolder;
+    clear: left;
+    width: 30%;
+    float: left;
+    border-top: 1px solid white;
+}
+
+dd{clear: right;
+    width: 50%;
+    float: left;
+    margin: 0;
+    border-top: 1px solid white;
+}
+
+
+.clear{
+    clear: both ;
+}
+
+h2{text-align: center;
+    letter-spacing: 5px;
+}
+
+h2{text-transform: uppercase;}
+
+aside h2 {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+aside section h2:first-child{
+    border-bottom: 2px solid white;
+}
+
+*{color:black;}
+p{color: black;
+}
+
+#rihana img{
+    border-radius: 50%;}
+    main section h2{
+        text-transform: uppercase;
+        letter-spacing: 5px;
+    }
+
+    .hero{border-radius: 5%;
+        background-color: coral;
+    box-shadow: 2px 2px 40px 1px;
+    padding: 15% 0;
+    text-align: center; 
+    }
+    .hero h1{color: black;
+        border-top: 2px, solid white;
+        letter-spacing: 15px;
+        text-transform: uppercase;
+     }
+    .hero h2{color: white;
+        border-top: 2px, solid white;
+        letter-spacing: 15px; 
+        text-transform: uppercase
+    }
+        
+    .Referencias{
+        border-radius: 5%;
+        display: flex;
+        flex-wrap:wrap ;     
+     background-color: coral;
+     box-shadow: 2px 2px 40px 1px;
+     padding: 15% 0;
+     text-align: center; 
+        
+    }
+    .Referencias article{
+        width: 50%;
+    }
+   
+meter{
+    display: block;
+    width: 80%;
+    text-align: center; 
+    }
+    section{text-align: center;}
+
+.Presentacion{ border-radius: 5%;
+    font-style: italic;
+    font-size: 20px;
+    flex-wrap:wrap ;     
+ background-color: rgb(141, 136, 136);
+ box-shadow: 2px 2px 40px 1px;
+ padding: 10% 0;
+ text-align: center;
+letter-spacing: 5px; 
+}
+address{ text-transform: uppercase;
+font-weight: bold;
+font-style: italic;}
+button{color: black}
